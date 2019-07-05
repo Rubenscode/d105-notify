@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+}
+nav{
+    background-color: #2dcc70;
+    height: 4px;
+}
+header{
+    background-color: blue;
+    height: 37.0vw;
+}
+section{
+    background-color: purple;
+    height: 21vw;
+}
+aside{
+    background-color: aqua;
+    height: 25.7vw;
+}
+article{
+    background-color: orange;
+    height: 28.4vw;
+}
+footer{
+    background-color: firebrick;
+    height: 8.5vw;
+}
+@media(max-width: 700px){
+    header{
+        background-color: blue;
+        height: 10vw;
+    }
+}
