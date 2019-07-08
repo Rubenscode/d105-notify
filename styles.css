@@ -67,11 +67,7 @@ body{
     .banner > img{
         display: block;
     }
-
-    
-
 }
-
 @media(min-width: 1024px){
     .banner{
         height: 38vw;
@@ -84,20 +80,46 @@ body{
     }
 }
 
+section{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+    justify-content: space-around;
+    height: 40vh;
+}
+    
+.World{
+    align-items: center;
+    display: flex;
+    height: 20vh;
+}
+
+.World img{
+    align-items: center;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    width: 50px;
+    padding: 10px;
+}
+.World h2{
+    font-size: 15pt;
+    font-weight: normal;
+}
+    
+.World p{
+    color: gray;    
+    font-size: 11pt; 
+}
+    
+.World .Logo, .Stars, .Mundo{
+    align-items: center;
+    background-color: green;
+    border-radius: 100%;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    width: 80px;
+}
 aside{
-    background-color: aqua;
-    height: 25.7vw;
-}
-article{
-    background-color: orange;
-    height: 28.4vw;
-}
-footer{
-    background-color: firebrick;
-    height: 8.5vw;
-}
-@media(max-width: 700px){
-    header{
-        height: 10vw;
-    }
-}
