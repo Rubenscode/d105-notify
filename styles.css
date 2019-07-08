@@ -1,8 +1,6 @@
 body{
     margin: 0px;
-    font-family: 'Pacifico', cursive;
 }
-
 .banner{
     background-image: url(images/banner.png);
     background-size: cover;
@@ -14,18 +12,16 @@ body{
     justify-content: space-around;
     height: 500px;
 }
-
 .banner > div{
     width: 400px;
 }
-
 .banner h1{
-    font-family: 'Pacifico,';
     font-size: 48px;
     position: relative;
     margin-top: 0;
-}
+    font-family: 'Pacifico', cursive;
 
+}
 .banner h1 span{
     width: 10px;
     height: 10px;
@@ -36,19 +32,18 @@ body{
     top: 44px;
     left: 135px;
 }
-
 .banner p{
+    font-family: sans-serif;
     font-size: 20px;
 }
-
 .banner > img{
     width: 250px;
     align-self: flex-end;
     display: none;
 }
-
 .banner .icones img:hover{
     background-color: rgb(29, 204, 116);
+    cursor: pointer;
 }
 
 .banner .icones img{
@@ -79,13 +74,30 @@ body{
         display: block;
     }
 }
-
 section{
     display: flex;
     flex-wrap: wrap;
     font-family: sans-serif;
     justify-content: space-around;
-    height: 40vh;
+    height: 45vh;
+}
+.World{
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    min-height: 1px;
+    padding: 60px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.World h2{
+    font-size: 15pt;
+    font-weight: normal;  
+}
+.World p{
+    color: gray;    
+    font-size: 11pt; 
 }
 .Logo{
     background-color:rgb(29, 204, 116);
@@ -93,7 +105,6 @@ section{
     height: 40px; 
     padding: 22px;
 }
-    
 .Logo img{
     align-items: center;
     display: flex;
@@ -101,25 +112,6 @@ section{
     justify-content: center;
     padding: 10px;
     width: 30px;
-}
-.World h2{
-    font-size: 15pt;
-    font-weight: normal;
-}
-.World p{
-    color: gray;    
-    font-size: 11pt; 
-}
-
-.World{
-    flex-basis: 0;
-    flex-grow: 1;
-    max-width: 100%;
-    min-height: 1px;
-    padding: 54px;
-    position: relative;
-    text-align: center;
-    width: 100%;
 }
 aside{
     height: 400px;
@@ -129,26 +121,22 @@ aside{
     flex-direction: row;
     width: 100%;
 }
-
 .noty-text{
     display: flex;
     flex-direction: column;
     font-family: sans-serif;
     height: 70%;
     justify-content: flex-start;
-    margin-top: 45px;
+    margin-top: 50px;
     width: 30%;
 }
-
 .noty-text p{
     color: gray;
     font-size: 11pt;
 }
-
 .noty-acess{
     display: flex;
 }
-
 .noty-acess .email{
     border: white;
     border-radius: 14px 0 0 14px;
@@ -157,7 +145,6 @@ aside{
     padding: 2px 20px;
     width: 233px;
 }
-
 .noty-acess .click{
     border-radius: 0 15px 15px 0px;
     background-color: rgb(29, 204, 116);
@@ -167,14 +154,12 @@ aside{
     height: 54px;
     width: 125px;
 }
-
 .noty-video{
     align-items: center;
     display: flex;
     margin-left: 52px;
     padding: 50px;
 }
-
 #Mudarborda{
     border-radius: 10px;
 }
@@ -189,8 +174,8 @@ article{
 }
 .people-text p{
     color: gray;
-    font-family: sans-serif;
     font-size: 12.5pt;
+    font-family: sans-serif;
     font-style: italic;
     margin: 0;
     text-align: center;
@@ -198,7 +183,61 @@ article{
 }
 h4{
     color: black;
-    font-family: sans-serif;
     font-size: 14pt;
+    font-family: sans-serif;
     text-align: center;
+}
+.Pictures{
+    margin: 0 2px;
+    position: relative;
+}
+.People-intro h3{
+    font-family: sans-serif;
+    font-size: 16pt;
+    text-align: center;
+}
+.People-intro p{
+    color: gray;
+    font-family: sans-serif;
+    font-size: 12pt;
+    text-align: center;
+ 
+}
+.Contato{
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+#Contato-pic{
+    align-items: center;
+    background-color: grey;
+    border-radius: 50%;
+    display: flex;
+    height: 20px;
+    justify-content: center;
+    margin: 0 5px;
+    padding: 7px;
+    width: 20px;
+}
+#Contato-pic:hover{
+    border-radius: 50%;
+    background-color: #2CCD6F;
+    cursor: pointer;
+}
+.Barra{
+    align-items: center;
+    background-color: #e3e3e3;
+    display:flex;
+    height: 30vh;
+    font-family: sans-serif;
+    justify-content: center;
+}
+.Barra ul{
+    display: flex;
+    list-style: none;
+}
+.Barra ul li{
+    color: grey;
+    margin-right: 30px;
 }
