@@ -48,7 +48,7 @@ body{
 }
 
 .banner .icones img:hover{
-    background-color: #2dcc70;
+    background-color: rgb(29, 204, 116);
 }
 
 .banner .icones img{
@@ -81,11 +81,17 @@ body{
 }
 
 section{
-    flex-wrap: wrap;
     display: flex;
+    flex-wrap: wrap;
     font-family: sans-serif;
     justify-content: space-around;
     height: 40vh;
+}
+.Logo{
+    background-color:rgb(29, 204, 116);
+    border-radius: 50%;
+    height: 40px; 
+    padding: 22px;
 }
     
 .Logo img{
@@ -93,14 +99,13 @@ section{
     display: flex;
     height: 30px;
     justify-content: center;
-    width: 30px;
     padding: 10px;
+    width: 30px;
 }
 .World h2{
     font-size: 15pt;
     font-weight: normal;
 }
-    
 .World p{
     color: gray;    
     font-size: 11pt; 
@@ -110,16 +115,90 @@ section{
     flex-basis: 0;
     flex-grow: 1;
     max-width: 100%;
-    position: relative;
-    width: 100%;
     min-height: 1px;
-    padding: 52px;
+    padding: 54px;
+    position: relative;
     text-align: center;
+    width: 100%;
+}
+aside{
+    height: 400px;
+    background-color:rgb(224, 223, 223);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
 }
 
-.Logo{
-    background-color: #15c753;
-    border-radius: 50%;
-    padding: 22px;
-    height: 40px; 
+.noty-text{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    height: 70%;
+    justify-content: flex-start;
+    margin-top: 45px;
+    width: 30%;
+}
+
+.noty-text p{
+    color: gray;
+    font-size: 11pt;
+}
+
+.noty-acess{
+    display: flex;
+}
+
+.noty-acess .email{
+    border: white;
+    border-radius: 14px 0 0 14px;
+    font-size: 12pt;
+    height: 48px;
+    padding: 2px 20px;
+    width: 233px;
+}
+
+.noty-acess .click{
+    border-radius: 0 15px 15px 0px;
+    background-color: rgb(29, 204, 116);
+    border: rgb(29, 204, 116);
+    color: white;
+    font-size: 16pt;
+    height: 54px;
+    width: 125px;
+}
+
+.noty-video{
+    align-items: center;
+    display: flex;
+    margin-left: 52px;
+    padding: 50px;
+}
+
+#Mudarborda{
+    border-radius: 10px;
+}
+
+article{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 40px 130px;
+}
+.people-text p{
+    color: gray;
+    font-family: sans-serif;
+    font-size: 12.5pt;
+    font-style: italic;
+    margin: 0;
+    text-align: center;
+    width: 750px;
+}
+h4{
+    color: black;
+    font-family: sans-serif;
+    font-size: 14pt;
+    text-align: center;
 }
